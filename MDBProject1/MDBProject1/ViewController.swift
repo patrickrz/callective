@@ -6,6 +6,14 @@
 //  Copyright © 2020 Kanu Grover. All rights reserved.
 //
 
+//
+//  ViewController.swift
+//  MDBProject1
+//
+//  Created by Kanu Grover on 9/19/20.
+//  Copyright © 2020 Kanu Grover. All rights reserved.
+//
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -52,7 +60,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     @IBAction func nextImageButton(_ sender: UIButton) {
-        self.resetTimer()
+        if timer != nil {
+            self.resetTimer()
+        }
         if lastThreeSelectedNames.count < 3 {
             lastThreeSelectedNames.append((sender.titleLabel?.text!)!)
         } else {
@@ -89,12 +99,14 @@ class ViewController: UIViewController {
     }
     
     func startTimer() {
+        pauseButton.image = UIImage(systemName: "pause.rectangle.fill")
         timer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(updateViewFromModel), userInfo: nil, repeats: false)
         print("hello")
     }
     
     func resetTimer() {
         timer!.invalidate()
+        timer = nil
     }
     
     @objc func pauseGame() {
