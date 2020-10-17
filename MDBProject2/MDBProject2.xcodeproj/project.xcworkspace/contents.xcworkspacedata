@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MDBProject2.xcodeproj">
+      location = "group:/Users/kanugrover/mdb/MDBProjects/MDBProject2/MDBProject2/pokemons.json">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
