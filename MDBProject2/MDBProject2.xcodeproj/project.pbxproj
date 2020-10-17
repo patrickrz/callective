@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B2641C82525C571005670AE /* pokemons.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B2641C72525C571005670AE /* pokemons.json */; };
 		7B3DD5492525AE3900667D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DD5482525AE3900667D3E /* AppDelegate.swift */; };
 		7B3DD54B2525AE3900667D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DD54A2525AE3900667D3E /* SceneDelegate.swift */; };
 		7B3DD5502525AE3900667D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3DD54E2525AE3900667D3E /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		7B3DD5612525AFD000667D3E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DD5602525AFD000667D3E /* TableViewController.swift */; };
 		7B3DD5632525B2D400667D3E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DD5622525B2D400667D3E /* CustomTableViewCell.swift */; };
 		7B5974D12538474200E14677 /* AttributeBoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5974D02538474200E14677 /* AttributeBoundViewController.swift */; };
+		7B878E91253A793300B52BEC /* pokemons.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B878E90253A793300B52BEC /* pokemons.json */; };
 		7BEF699F2538304F00B20CD6 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF699E2538304F00B20CD6 /* PopOverViewController.swift */; };
 		7BEF69A12538328D00B20CD6 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF69A02538328D00B20CD6 /* Shared.swift */; };
 		7BF9C161252EF4790090556B /* PokemonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9C160252EF4790090556B /* PokemonCollectionViewController.swift */; };
@@ -27,7 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B2641C72525C571005670AE /* pokemons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemons.json; path = "../../../Downloads/MP2StarterCode 2/pokemons.json"; sourceTree = "<group>"; };
 		7B3DD5452525AE3900667D3E /* MDBProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDBProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3DD5482525AE3900667D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B3DD54A2525AE3900667D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		7B3DD5602525AFD000667D3E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7B3DD5622525B2D400667D3E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		7B5974D02538474200E14677 /* AttributeBoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeBoundViewController.swift; sourceTree = "<group>"; };
+		7B878E90253A793300B52BEC /* pokemons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemons.json; path = "../../../../Downloads/MP2StarterCode 2/pokemons.json"; sourceTree = "<group>"; };
 		7BEF699E2538304F00B20CD6 /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
 		7BEF69A02538328D00B20CD6 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		7BF9C160252EF4790090556B /* PokemonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		7B3DD5472525AE3900667D3E /* MDBProject2 */ = {
 			isa = PBXGroup;
 			children = (
-				7B2641C72525C571005670AE /* pokemons.json */,
+				7B878E90253A793300B52BEC /* pokemons.json */,
 				7B3DD5482525AE3900667D3E /* AppDelegate.swift */,
 				7B3DD54A2525AE3900667D3E /* SceneDelegate.swift */,
 				7B3DD54E2525AE3900667D3E /* Main.storyboard */,
@@ -159,8 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3DD5552525AE3D00667D3E /* LaunchScreen.storyboard in Resources */,
-				7B2641C82525C571005670AE /* pokemons.json in Resources */,
 				7B3DD5522525AE3D00667D3E /* Assets.xcassets in Resources */,
+				7B878E91253A793300B52BEC /* pokemons.json in Resources */,
 				7B3DD5502525AE3900667D3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
