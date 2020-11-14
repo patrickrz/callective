@@ -13,9 +13,13 @@
 		80903FA325606A570063E150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80903FA125606A570063E150 /* Main.storyboard */; };
 		80903FA525606A5A0063E150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80903FA425606A5A0063E150 /* Assets.xcassets */; };
 		80903FA825606A5A0063E150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80903FA625606A5A0063E150 /* LaunchScreen.storyboard */; };
+		80903FB12560703B0063E150 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80903FB02560703B0063E150 /* GoogleService-Info.plist */; };
+		A57B5441B7719B5164D809CD /* Pods_Callective.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E171DBDC1E526C7C7D9A0C44 /* Pods_Callective.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		366C248F09E718C7BD8476F3 /* Pods-Callective.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callective.debug.xcconfig"; path = "Target Support Files/Pods-Callective/Pods-Callective.debug.xcconfig"; sourceTree = "<group>"; };
+		5CCE91E24EA0838C5A92C1F8 /* Pods-Callective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callective.release.xcconfig"; path = "Target Support Files/Pods-Callective/Pods-Callective.release.xcconfig"; sourceTree = "<group>"; };
 		80903F9825606A570063E150 /* Callective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Callective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80903F9B25606A570063E150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80903F9D25606A570063E150 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		80903FA425606A5A0063E150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80903FA725606A5A0063E150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80903FA925606A5A0063E150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80903FB02560703B0063E150 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E171DBDC1E526C7C7D9A0C44 /* Pods_Callective.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callective.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57B5441B7719B5164D809CD /* Pods_Callective.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60BA01FDF3D3C1E710BCD775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E171DBDC1E526C7C7D9A0C44 /* Pods_Callective.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80903F8F25606A570063E150 = {
 			isa = PBXGroup;
 			children = (
 				80903F9A25606A570063E150 /* Callective */,
 				80903F9925606A570063E150 /* Products */,
+				F661FD3C358A606E4B76B63D /* Pods */,
+				60BA01FDF3D3C1E710BCD775 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +79,20 @@
 				80903FA125606A570063E150 /* Main.storyboard */,
 				80903FA425606A5A0063E150 /* Assets.xcassets */,
 				80903FA625606A5A0063E150 /* LaunchScreen.storyboard */,
+				80903FB02560703B0063E150 /* GoogleService-Info.plist */,
 				80903FA925606A5A0063E150 /* Info.plist */,
 			);
 			path = Callective;
+			sourceTree = "<group>";
+		};
+		F661FD3C358A606E4B76B63D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366C248F09E718C7BD8476F3 /* Pods-Callective.debug.xcconfig */,
+				5CCE91E24EA0838C5A92C1F8 /* Pods-Callective.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80903FAC25606A5A0063E150 /* Build configuration list for PBXNativeTarget "Callective" */;
 			buildPhases = (
+				AF5FB119A993688ECCE8A763 /* [CP] Check Pods Manifest.lock */,
 				80903F9425606A570063E150 /* Sources */,
 				80903F9525606A570063E150 /* Frameworks */,
 				80903F9625606A570063E150 /* Resources */,
+				ADCC6EFEA0795F7AFCE80256 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				80903FA825606A5A0063E150 /* LaunchScreen.storyboard in Resources */,
+				80903FB12560703B0063E150 /* GoogleService-Info.plist in Resources */,
 				80903FA525606A5A0063E150 /* Assets.xcassets in Resources */,
 				80903FA325606A570063E150 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADCC6EFEA0795F7AFCE80256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Callective/Pods-Callective-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Callective/Pods-Callective-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Callective/Pods-Callective-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5FB119A993688ECCE8A763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Callective-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80903F9425606A570063E150 /* Sources */ = {
@@ -283,6 +356,7 @@
 		};
 		80903FAD25606A5A0063E150 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366C248F09E718C7BD8476F3 /* Pods-Callective.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +375,7 @@
 		};
 		80903FAE25606A5A0063E150 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCE91E24EA0838C5A92C1F8 /* Pods-Callective.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
