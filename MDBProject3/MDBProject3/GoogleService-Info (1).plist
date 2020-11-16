@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>915874897544-91h48nvdua9gdfa4jbv8i3n6l2dea7s9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.915874897544-91h48nvdua9gdfa4jbv8i3n6l2dea7s9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBhqq_fHHvMpUwLscf7qLUZQt9_yrmaU1s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>915874897544</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.KanuGrover.MDBProject3</string>
+	<key>PROJECT_ID</key>
+	<string>mdbproject3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mdbproject3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:915874897544:ios:36e61663be771ab56c893d</string>
+	<key>DATABASE_URL</key>
+	<string>https://mdbproject3.firebaseio.com</string>
+</dict>
+</plist>
