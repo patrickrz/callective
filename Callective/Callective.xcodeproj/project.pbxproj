@@ -3,32 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5BF9A92561EB4700D020E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F5BF9A82561EB4600D020E2 /* GoogleService-Info.plist */; };
+		6F5BF9AB2561EE6700D020E2 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5BF9AA2561EE6700D020E2 /* Authentication.storyboard */; };
+		6F5BF9B02561EEE000D020E2 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9AD2561EEE000D020E2 /* AuthenticationController.swift */; };
+		6F5BF9B12561EEE000D020E2 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9AE2561EEE000D020E2 /* SignUpController.swift */; };
+		6F5BF9B22561EEE000D020E2 /* InitializationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9AF2561EEE000D020E2 /* InitializationController.swift */; };
+		6F5BF9B72561F11A00D020E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9B42561F11A00D020E2 /* Extensions.swift */; };
+		6F5BF9B92561F11A00D020E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9B62561F11A00D020E2 /* User.swift */; };
+		6F5BF9BB2561F23F00D020E2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9BA2561F23F00D020E2 /* Utils.swift */; };
+		6F5BF9BD2561F43800D020E2 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9BC2561F43800D020E2 /* SettingsController.swift */; };
+		6F5BF9C02561FC0300D020E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5BF9BF2561FC0300D020E2 /* LaunchScreen.storyboard */; };
 		80903F9C25606A570063E150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80903F9B25606A570063E150 /* AppDelegate.swift */; };
 		80903F9E25606A570063E150 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80903F9D25606A570063E150 /* SceneDelegate.swift */; };
 		80903FA025606A570063E150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80903F9F25606A570063E150 /* ViewController.swift */; };
-		80903FA325606A570063E150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80903FA125606A570063E150 /* Main.storyboard */; };
 		80903FA525606A5A0063E150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80903FA425606A5A0063E150 /* Assets.xcassets */; };
-		80903FA825606A5A0063E150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80903FA625606A5A0063E150 /* LaunchScreen.storyboard */; };
-		80903FB12560703B0063E150 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80903FB02560703B0063E150 /* GoogleService-Info.plist */; };
 		A36713413D4E1B8EF360D950 /* Pods_Callective.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82499B78EF09237AD62798C1 /* Pods_Callective.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A0868CFB35371FBBB66B3A1 /* Pods-Callective.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callective.debug.xcconfig"; path = "Target Support Files/Pods-Callective/Pods-Callective.debug.xcconfig"; sourceTree = "<group>"; };
 		47E69E1920AD35C9A72E5E50 /* Pods-Callective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callective.release.xcconfig"; path = "Target Support Files/Pods-Callective/Pods-Callective.release.xcconfig"; sourceTree = "<group>"; };
+		6F5BF9A82561EB4600D020E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F5BF9AA2561EE6700D020E2 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		6F5BF9AD2561EEE000D020E2 /* AuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		6F5BF9AE2561EEE000D020E2 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		6F5BF9AF2561EEE000D020E2 /* InitializationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializationController.swift; sourceTree = "<group>"; };
+		6F5BF9B42561F11A00D020E2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6F5BF9B62561F11A00D020E2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6F5BF9BA2561F23F00D020E2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6F5BF9BC2561F43800D020E2 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		6F5BF9BF2561FC0300D020E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80903F9825606A570063E150 /* Callective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Callective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80903F9B25606A570063E150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80903F9D25606A570063E150 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80903F9F25606A570063E150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80903FA225606A570063E150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80903FA425606A5A0063E150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80903FA725606A5A0063E150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80903FA925606A5A0063E150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80903FB02560703B0063E150 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		82499B78EF09237AD62798C1 /* Pods_Callective.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callective.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,6 +64,26 @@
 				82499B78EF09237AD62798C1 /* Pods_Callective.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F5BF9AC2561EED700D020E2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				6F5BF9AD2561EEE000D020E2 /* AuthenticationController.swift */,
+				6F5BF9AE2561EEE000D020E2 /* SignUpController.swift */,
+				6F5BF9AF2561EEE000D020E2 /* InitializationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		6F5BF9B32561F11000D020E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F5BF9B42561F11A00D020E2 /* Extensions.swift */,
+				6F5BF9BA2561F23F00D020E2 /* Utils.swift */,
+				6F5BF9B62561F11A00D020E2 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		80903F8F25606A570063E150 = {
@@ -75,11 +109,14 @@
 			children = (
 				80903F9B25606A570063E150 /* AppDelegate.swift */,
 				80903F9D25606A570063E150 /* SceneDelegate.swift */,
+				6F5BF9AC2561EED700D020E2 /* Authentication */,
 				80903F9F25606A570063E150 /* ViewController.swift */,
-				80903FA125606A570063E150 /* Main.storyboard */,
+				6F5BF9B32561F11000D020E2 /* Model */,
+				6F5BF9BC2561F43800D020E2 /* SettingsController.swift */,
+				6F5BF9BF2561FC0300D020E2 /* LaunchScreen.storyboard */,
 				80903FA425606A5A0063E150 /* Assets.xcassets */,
-				80903FA625606A5A0063E150 /* LaunchScreen.storyboard */,
-				80903FB02560703B0063E150 /* GoogleService-Info.plist */,
+				6F5BF9AA2561EE6700D020E2 /* Authentication.storyboard */,
+				6F5BF9A82561EB4600D020E2 /* GoogleService-Info.plist */,
 				80903FA925606A5A0063E150 /* Info.plist */,
 			);
 			path = Callective;
@@ -91,7 +128,6 @@
 				3A0868CFB35371FBBB66B3A1 /* Pods-Callective.debug.xcconfig */,
 				47E69E1920AD35C9A72E5E50 /* Pods-Callective.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +143,7 @@
 				80903F9525606A570063E150 /* Frameworks */,
 				80903F9625606A570063E150 /* Resources */,
 				8295E1A0EFA333FDCE87B991 /* [CP] Embed Pods Frameworks */,
+				883909F426F382A9AE5899CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,10 +191,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80903FA825606A5A0063E150 /* LaunchScreen.storyboard in Resources */,
-				80903FB12560703B0063E150 /* GoogleService-Info.plist in Resources */,
+				6F5BF9A92561EB4700D020E2 /* GoogleService-Info.plist in Resources */,
 				80903FA525606A5A0063E150 /* Assets.xcassets in Resources */,
-				80903FA325606A570063E150 /* Main.storyboard in Resources */,
+				6F5BF9C02561FC0300D020E2 /* LaunchScreen.storyboard in Resources */,
+				6F5BF9AB2561EE6700D020E2 /* Authentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +240,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Callective/Pods-Callective-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		883909F426F382A9AE5899CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Callective/Pods-Callective-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Callective/Pods-Callective-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Callective/Pods-Callective-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -210,32 +264,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5BF9B12561EEE000D020E2 /* SignUpController.swift in Sources */,
 				80903FA025606A570063E150 /* ViewController.swift in Sources */,
+				6F5BF9BB2561F23F00D020E2 /* Utils.swift in Sources */,
+				6F5BF9B02561EEE000D020E2 /* AuthenticationController.swift in Sources */,
 				80903F9C25606A570063E150 /* AppDelegate.swift in Sources */,
 				80903F9E25606A570063E150 /* SceneDelegate.swift in Sources */,
+				6F5BF9BD2561F43800D020E2 /* SettingsController.swift in Sources */,
+				6F5BF9B92561F11A00D020E2 /* User.swift in Sources */,
+				6F5BF9B22561EEE000D020E2 /* InitializationController.swift in Sources */,
+				6F5BF9B72561F11A00D020E2 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		80903FA125606A570063E150 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80903FA225606A570063E150 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		80903FA625606A5A0063E150 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80903FA725606A5A0063E150 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		80903FAA25606A5A0063E150 /* Debug */ = {
@@ -362,6 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Callective/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Callective/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

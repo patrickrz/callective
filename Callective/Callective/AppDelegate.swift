@@ -1,19 +1,26 @@
 //
 //  AppDelegate.swift
-//  Callective
+//  Match
 //
-//  Created by Patrick Zhu on 11/14/20.
+//  Created by Abhishek Kattuparambil on 10/9/20.
+//  Copyright © 2020 Abhishek Kattuparambil. All rights reserved.
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
+import FBSDKCoreKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
         return true
     }
 
