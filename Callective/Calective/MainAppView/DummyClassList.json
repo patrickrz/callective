@@ -1,0 +1,52 @@
+[
+    {
+        "class_num": 31157,
+        "class_abrv": "CS 189",
+        "class_code": "COMPSCI 189",
+        "class_name": "Introduction to Machine Learning",
+        "num_units": 4,
+        "professor": "Jonathan Shewchuk",
+        "lecture_days": "M, W",
+        "semester": "SP 21",
+        "total_open_seats": 0,
+        "enrolled": 390,
+        "capacity": 390,
+        "waitlisted": 542,
+        "waitlist_max": 600
+    },
+    
+    {
+        "class_num": 28286,
+        "class_abrv": "DATA C8",
+        "class_code": "DATA C8",
+        "class_name": "Foundations of Data Science",
+        "num_units": 4,
+        "professor": "Babak Ayazifar",
+        "lecture_days": "M, W, F",
+        "semester": "SP 21",
+        "total_open_seats": 0,
+        "enrolled": 1340,
+        "capacity": 1340,
+        "waitlisted": 249,
+        "waitlist_max": 250
+        
+    },
+    
+    {
+        "class_num": 28108,
+        "class_abrv": "CS 61B",
+        "class_code": "COMPSCI C8",
+        "class_name": "Data Structures",
+        "num_units": 4,
+        "professor": "Joshua A. Hug",
+        "lecture_days": "M, W, F",
+        "semester": "SP 21",
+        "total_open_seats": 630,
+        "enrolled": 985,
+        "capacity": 1615,
+        "waitlisted": 274,
+        "waitlist_max": 600
+        
+    }
+        
+]

@@ -16,13 +16,17 @@
 		6F5BF9BB2561F23F00D020E2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9BA2561F23F00D020E2 /* Utils.swift */; };
 		6F5BF9BD2561F43800D020E2 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BF9BC2561F43800D020E2 /* SettingsController.swift */; };
 		6F5BF9C02561FC0300D020E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5BF9BF2561FC0300D020E2 /* LaunchScreen.storyboard */; };
+		802B76FF256A0E790058EC0E /* AppView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802B76FE256A0E790058EC0E /* AppView.storyboard */; };
 		80903F9C25606A570063E150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80903F9B25606A570063E150 /* AppDelegate.swift */; };
 		80903F9E25606A570063E150 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80903F9D25606A570063E150 /* SceneDelegate.swift */; };
 		80903FA025606A570063E150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80903F9F25606A570063E150 /* ViewController.swift */; };
 		80903FA525606A5A0063E150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80903FA425606A5A0063E150 /* Assets.xcassets */; };
 		80FA65262569A16D0061F64B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80FA65252569A16C0061F64B /* GoogleService-Info.plist */; };
-		80FA65292569A5860061F64B /* AppView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FA65282569A5860061F64B /* AppView.storyboard */; };
 		80FA652C2569A62F0061F64B /* HomeFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA652B2569A62F0061F64B /* HomeFeedVC.swift */; };
+		80FA65652569FA650061F64B /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA65642569FA650061F64B /* Course.swift */; };
+		80FA65682569FBA70061F64B /* CourseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA65672569FBA70061F64B /* CourseGenerator.swift */; };
+		80FA6582256A07C40061F64B /* HomeFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA6581256A07C40061F64B /* HomeFeedCollectionViewCell.swift */; };
+		80FFB7D6256A37CF00B1A6F0 /* DummyClassList.json in Resources */ = {isa = PBXBuildFile; fileRef = 80FA65612569F2D30061F64B /* DummyClassList.json */; };
 		E6D92EC18F9A45B6B24482E7 /* Pods_Callective.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D8393297B086CF73E20913 /* Pods_Callective.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,15 +43,19 @@
 		6F5BF9BC2561F43800D020E2 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsController.swift; path = Controllers/SettingsController.swift; sourceTree = "<group>"; };
 		6F5BF9BF2561FC0300D020E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D8393297B086CF73E20913 /* Pods_Callective.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callective.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80903F9825606A570063E150 /* Callective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Callective.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80903F9B25606A570063E150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Callective/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		802B76FE256A0E790058EC0E /* AppView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppView.storyboard; sourceTree = "<group>"; };
+		802B7703256A0EF70058EC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80903F9825606A570063E150 /* Calective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calective.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80903F9B25606A570063E150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Calective/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		80903F9D25606A570063E150 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80903F9F25606A570063E150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80903FA425606A5A0063E150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80903FA925606A5A0063E150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80FA65252569A16C0061F64B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		80FA65282569A5860061F64B /* AppView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppView.storyboard; sourceTree = "<group>"; };
+		80FA65252569A16C0061F64B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleServicePList/Calective/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80FA652B2569A62F0061F64B /* HomeFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedVC.swift; sourceTree = "<group>"; };
+		80FA65612569F2D30061F64B /* DummyClassList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DummyClassList.json; sourceTree = "<group>"; };
+		80FA65642569FA650061F64B /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		80FA65672569FBA70061F64B /* CourseGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseGenerator.swift; sourceTree = "<group>"; };
+		80FA6581256A07C40061F64B /* HomeFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +78,7 @@
 				6F5BF9AF2561EEE000D020E2 /* InitializationController.swift */,
 			);
 			name = Authentication;
-			path = /Users/patrickzhu/Documents/MDB/callective/Callective/Callective/Authentication;
+			path = /Users/patrickzhu/Documents/MDB/Calective/Callective/Calective/Authentication;
 			sourceTree = "<absolute>";
 		};
 		6F5BF9B32561F11000D020E2 /* Model */ = {
@@ -86,7 +94,7 @@
 		80903F8F25606A570063E150 = {
 			isa = PBXGroup;
 			children = (
-				80903F9A25606A570063E150 /* Callective */,
+				80903F9A25606A570063E150 /* Calective */,
 				80903F9925606A570063E150 /* Products */,
 				9A17B6ADA2FC200FD864773C /* Pods */,
 				DF98908C17EE98C3023E5284 /* Frameworks */,
@@ -96,14 +104,15 @@
 		80903F9925606A570063E150 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80903F9825606A570063E150 /* Callective.app */,
+				80903F9825606A570063E150 /* Calective.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80903F9A25606A570063E150 /* Callective */ = {
+		80903F9A25606A570063E150 /* Calective */ = {
 			isa = PBXGroup;
 			children = (
+				80FA6587256A0AFE0061F64B /* MainAppView */,
 				80903F9B25606A570063E150 /* AppDelegate.swift */,
 				80903F9D25606A570063E150 /* SceneDelegate.swift */,
 				6F5BF9AC2561EED700D020E2 /* Authentication */,
@@ -113,12 +122,23 @@
 				6F5BF9BF2561FC0300D020E2 /* LaunchScreen.storyboard */,
 				80903FA425606A5A0063E150 /* Assets.xcassets */,
 				6F5BF9AA2561EE6700D020E2 /* Authentication.storyboard */,
-				80903FA925606A5A0063E150 /* Info.plist */,
 				80FA65252569A16C0061F64B /* GoogleService-Info.plist */,
-				80FA65282569A5860061F64B /* AppView.storyboard */,
-				80FA652B2569A62F0061F64B /* HomeFeedVC.swift */,
+				802B7703256A0EF70058EC0E /* Info.plist */,
 			);
-			path = Callective;
+			path = Calective;
+			sourceTree = "<group>";
+		};
+		80FA6587256A0AFE0061F64B /* MainAppView */ = {
+			isa = PBXGroup;
+			children = (
+				802B76FE256A0E790058EC0E /* AppView.storyboard */,
+				80FA652B2569A62F0061F64B /* HomeFeedVC.swift */,
+				80FA6581256A07C40061F64B /* HomeFeedCollectionViewCell.swift */,
+				80FA65612569F2D30061F64B /* DummyClassList.json */,
+				80FA65672569FBA70061F64B /* CourseGenerator.swift */,
+				80FA65642569FA650061F64B /* Course.swift */,
+			);
+			path = MainAppView;
 			sourceTree = "<group>";
 		};
 		9A17B6ADA2FC200FD864773C /* Pods */ = {
@@ -141,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80903F9725606A570063E150 /* Callective */ = {
+		80903F9725606A570063E150 /* Calective */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80903FAC25606A5A0063E150 /* Build configuration list for PBXNativeTarget "Callective" */;
+			buildConfigurationList = 80903FAC25606A5A0063E150 /* Build configuration list for PBXNativeTarget "Calective" */;
 			buildPhases = (
 				B2CB0D2BC64B38A37F9158A8 /* [CP] Check Pods Manifest.lock */,
 				80903F9425606A570063E150 /* Sources */,
@@ -156,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = Callective;
+			name = Calective;
 			productName = Callective;
-			productReference = 80903F9825606A570063E150 /* Callective.app */;
+			productReference = 80903F9825606A570063E150 /* Calective.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 80903F9325606A570063E150 /* Build configuration list for PBXProject "Callective" */;
+			buildConfigurationList = 80903F9325606A570063E150 /* Build configuration list for PBXProject "Calective" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,7 +208,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80903F9725606A570063E150 /* Callective */,
+				80903F9725606A570063E150 /* Calective */,
 			);
 		};
 /* End PBXProject section */
@@ -198,11 +218,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FFB7D6256A37CF00B1A6F0 /* DummyClassList.json in Resources */,
 				80903FA525606A5A0063E150 /* Assets.xcassets in Resources */,
 				80FA65262569A16D0061F64B /* GoogleService-Info.plist in Resources */,
-				80FA65292569A5860061F64B /* AppView.storyboard in Resources */,
 				6F5BF9C02561FC0300D020E2 /* LaunchScreen.storyboard in Resources */,
 				6F5BF9AB2561EE6700D020E2 /* Authentication.storyboard in Resources */,
+				802B76FF256A0E790058EC0E /* AppView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FA65652569FA650061F64B /* Course.swift in Sources */,
 				6F5BF9B12561EEE000D020E2 /* SignUpController.swift in Sources */,
+				80FA6582256A07C40061F64B /* HomeFeedCollectionViewCell.swift in Sources */,
 				80903FA025606A570063E150 /* ViewController.swift in Sources */,
+				80FA65682569FBA70061F64B /* CourseGenerator.swift in Sources */,
 				6F5BF9BB2561F23F00D020E2 /* Utils.swift in Sources */,
 				80FA652C2569A62F0061F64B /* HomeFeedVC.swift in Sources */,
 				6F5BF9B02561EEE000D020E2 /* AuthenticationController.swift in Sources */,
@@ -340,6 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Calective/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -395,6 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Calective/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -412,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Callective/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calective/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Callective/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calective/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80903F9325606A570063E150 /* Build configuration list for PBXProject "Callective" */ = {
+		80903F9325606A570063E150 /* Build configuration list for PBXProject "Calective" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80903FAA25606A5A0063E150 /* Debug */,
@@ -457,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80903FAC25606A5A0063E150 /* Build configuration list for PBXNativeTarget "Callective" */ = {
+		80903FAC25606A5A0063E150 /* Build configuration list for PBXNativeTarget "Calective" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80903FAD25606A5A0063E150 /* Debug */,

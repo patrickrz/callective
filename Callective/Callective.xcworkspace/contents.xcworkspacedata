@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Callective.xcodeproj">
+      location = "group:/Users/patrickzhu/Documents/MDB/Calective/Callective/Calective.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

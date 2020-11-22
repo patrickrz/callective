@@ -12,7 +12,7 @@
         <!--Authentication Controller-->
         <scene sceneID="rFQ-XC-Rxg">
             <objects>
-                <viewController storyboardIdentifier="auth" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="eQs-Hy-uwM" customClass="AuthenticationController" customModule="Callective" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="auth" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="eQs-Hy-uwM" customClass="AuthenticationController" customModule="Calective" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ieg-0V-XUA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
         <!--Settings-->
         <scene sceneID="CsR-UQ-LJl">
             <objects>
-                <viewController storyboardIdentifier="sign" id="mdV-Ur-04g" customClass="SettingsController" customModule="Callective" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sign" id="mdV-Ur-04g" customClass="SettingsController" customModule="Calective" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v57-mv-hjA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,6 +203,14 @@
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <action selector="signOut:" destination="mdV-Ur-04g" eventType="touchUpInside" id="gPp-Qv-wte"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7c-xC-K4z">
+                                <rect key="frame" x="97" y="304" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="tap here to segue to Home View"/>
+                                <connections>
+                                    <segue destination="7mr-QB-YLE" kind="show" id="GmE-1L-5PK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -222,6 +230,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23b-Gh-07p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1267" y="1706"/>
+        </scene>
+        <!--AppView-->
+        <scene sceneID="l4s-xj-MLn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AppView" id="7mr-QB-YLE" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="u3j-bh-z6C"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wN8-fV-f9T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="1854"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="f3g-hL-Tef">
@@ -244,7 +262,7 @@
         <!--Sign Up Controller-->
         <scene sceneID="GNo-iJ-mcp">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="mRl-ue-Fzr" customClass="SignUpController" customModule="Callective" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="mRl-ue-Fzr" customClass="SignUpController" customModule="Calective" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jyA-Ja-cai">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -335,7 +353,7 @@
         <!--Initialization Controller-->
         <scene sceneID="5dK-G2-FRL">
             <objects>
-                <viewController id="0v0-xb-h3J" customClass="InitializationController" customModule="Callective" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0v0-xb-h3J" customClass="InitializationController" customModule="Calective" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z15-jb-FRu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -385,7 +403,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BDG-b0-VVT"/>
+        <segue reference="DKX-TM-urU"/>
         <segue reference="gad-vX-TGE"/>
     </inferredMetricsTieBreakers>
     <resources>
